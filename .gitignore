@@ -1,0 +1,16 @@
+# Exclure node_modules
+node_modules/
+
+# Exclure les fichiers de log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Exclure les fichiers de compilation et de cache
+dist/
+.vite/
+.vscode/
+.DS_Store
+
+# Exclure les dépendances locales et fichiers sensibles
+.env
